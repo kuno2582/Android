@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kuno.viewflipperex02.MainActivity">
+    <!--
+
+    터치 이벤트
+     - 화면을 손가락으로 터치할 때마다 발생하는 이벤트
+     - 제스처(Gesture)는 손가락으로 좌에서 우로 스크롤할 때 일어나는 패턴을 의미합니다.
+     - 터치 이벤트를 이용해서 화면 전환 효과를 구현하려면 /res/anim/에 xml형태로 정의해 주어야 합니다.
+     - anim 명칭은 안드로이드에서 정해진 형태이므로 그대로 폴더를 생성한 후 .xml을 만들어주어야합니다.
+
+     push_left_in.xml   View가 왼쪽 방향으로 밀려 들어올 때 사용
+     push_left_out.xml  View가 왼쪽 방향으로 밀려 나갈 때 사용
+     push_right_in.xml  View가 오른쪽 방향으로 밀려 들어올 때 사용
+     push_right_out.xml View가 오른쪽 방향으로 밀려 나갈 때 사용용
+
+   -->
+    <ViewFlipper
+        android:id="@+id/vfView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

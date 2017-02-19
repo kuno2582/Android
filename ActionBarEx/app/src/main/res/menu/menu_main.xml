@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+    showAsAction
+    always:     항상 액션 아이템으로 표시
+    ifRoom:     액션 아이템을 표시할 공간이 있다면 액션아이템 표시
+    never:      기본값, 항상 액션 아이템으로 표시하지 않음
+    widthText:  메뉴항목의 아이콘과 텍스트를 함께 액션아이템으로 표시
+
+    -->
+    <item
+        android:id="@+id/itChat"
+        android:title="채팅"
+        android:icon="@android:drawable/sym_action_chat"
+        android:orderInCategory="0"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/itSearch"
+        android:title="검색"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="1"
+        app:showAsAction="always|withText"
+        />
+    <item
+        android:id="@+id/itRefresh"
+        android:title="새로고침"
+        android:icon="@drawable/icon_refresh"
+        android:orderInCategory="0"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/itEmail"
+        android:title="이메일"
+        android:icon="@android:drawable/sym_action_email"
+        android:orderInCategory="2"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/itSettings"
+        android:title="설정"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+</menu>

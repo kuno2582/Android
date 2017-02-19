@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itAttach"
+        android:title="첨부하기"
+        android:icon="@drawable/ic_attachment"
+        />
+    <item
+        android:id="@+id/itShare"
+        android:title="공유하기"
+        android:icon="@drawable/ic_share"
+        />
+</menu>

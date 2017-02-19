@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kuno.relativelayoutex.MainActivity">
+
+    <!--
+    RelativeLayout
+     - 자식 뷰들의 상대적인 위치 관계에 따라 배치하는 레이아웃
+     - UI 오브젝트간 위치 지정을 주위 UI오브젝트의 위치를 참조해서 지정하는 레이아웃 방식
+    -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URL: "
+        android:id="@+id/lblURL"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:ems="10"
+        android:layout_toRightOf="@+id/lblURL"
+        android:id="@+id/editText" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="취소 버튼"
+        android:id="@+id/btnCancel"
+        android:layout_below="@+id/editText"
+        android:layout_alignRight="@+id/editText"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/btnCommit"
+        android:layout_toLeftOf="@+id/btnCancel"
+        android:layout_alignTop="@+id/btnCancel"/>
+
+</RelativeLayout>

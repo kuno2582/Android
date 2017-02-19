@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tistory.codedragon.framelayoutex.MainActivity">
+<!--
+FrameLayout
+- 여러 자식 뷰들을 겹쳐서 사용하는 레이아웃
+- 여러개의 이미지들을 같은 영역에 표시하고자 할 때 사용
+- 한번에 하나의 뷰만 보여주고 다른 뷰들은 아래에 중첩되어져서 쌓여져 있는 싱태로
+존재합니다.
+- 중첩된 뷰의 가시성(Visibility) 속성을 이용해서 다양한 화면을 구성하게 됩니다.
+    -->
+
+
+    <Button
+        android:text="확인 버튼"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img02"
+        android:id="@+id/imageView" />
+</FrameLayout>

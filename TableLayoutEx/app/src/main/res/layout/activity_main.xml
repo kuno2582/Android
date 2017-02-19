@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tistory.codedragon.tablelayoutex.MainActivity">
+<!--
+TableLayout
+- border 속성은 없습니다.
+- 열의 갯수는 자동적으로 설정되지만 행은 반드시 명시해 주어야 합니다.
+- 테이블은 TableRow라는 객체로 구성되어져 있으며 행이 됩니다.
+
+    -->
+    <TableRow>
+        <TextView android:text="국어" android:textSize="30sp" android:padding="10dp"/>
+        <TextView android:text="영어" android:textSize="30sp" android:padding="10dp"/>
+        <TextView android:text="수학" android:textSize="30sp" android:padding="10dp"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="88" android:textSize="30sp" android:padding="10dp"/>
+        <TextView android:text="77" android:textSize="30sp" android:padding="10dp"/>
+        <TextView android:text="66" android:textSize="30sp" android:padding="10dp"/>
+    </TableRow>
+
+</TableLayout>

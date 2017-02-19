@@ -1,0 +1,23 @@
+{
+  "menu":"회원관리",
+  "member":[
+    {
+      "id":"kuno",
+      "name":"유노",
+      "address":"중구 신당동",
+      "job":"Developer"
+    },
+    {
+      "id":"hwany",
+      "name":"화니",
+      "address":"모란역",
+      "job":"Priest"
+    },
+    {
+      "id":"jaehoon",
+      "name":"줴훈",
+      "address":"범계",
+      "job":"HTML hater"
+    }
+  ]
+}

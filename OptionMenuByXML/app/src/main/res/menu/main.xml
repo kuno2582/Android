@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/itSeoul"
+        android:title="서울"/>
+    <item android:id="@+id/itBusan"
+        android:title="부산"/>
+    <item android:id="@+id/itSubMenu"
+        android:title="기타...">
+        <menu>
+            <item
+                android:id="@+id/itNewYork"
+                android:title="뉴욕" />
+            <item android:id="@+id/itVenice"
+                android:title="베니스"/>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/itCoffee"
+        android:title="Coffee"
+        />
+    <item
+        android:id="@+id/itJuice"
+        android:title="Juice"
+        />
+    <item
+        android:id="@+id/More"
+        android:title="more...">
+        <menu>
+            <item
+                android:id="@+id/itCake"
+                android:title="Cake"
+                />
+            <item
+                android:id="@+id/itWaffle"
+                android:title="Waffle"
+                />
+        </menu>
+    </item>
+</menu>
